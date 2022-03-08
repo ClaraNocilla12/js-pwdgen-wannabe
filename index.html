@@ -24,9 +24,9 @@
             return Math.floor(Math.random() * max);
         }
 
-        let firstName = prompt("Inserisci il nome");
-        let lastName = prompt("Inserisci il cognome");
-        let favouriteColor = prompt("Inserisci il colore");
+        let firstName = prompt("Inserisci il tuo nome");
+        let lastName = prompt("Inserisci il tuo cognome");
+        let favouriteColor = prompt("Inserisci il tuo colore preferito");
         let randomPassword = firstName + lastName + favouriteColor + getRandomInt(100);
         document.getElementById('password').innerHTML = randomPassword;
     </script>
